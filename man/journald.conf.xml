@@ -142,7 +142,7 @@
         <para>If a service provides rate limits for itself through
         <varname>LogRateLimitIntervalSec=</varname> and/or <varname>LogRateLimitBurst=</varname>
         in <citerefentry><refentrytitle>systemd.exec</refentrytitle><manvolnum>5</manvolnum></citerefentry>,
-        those values will override the settings specified here.</para>
+        those values will override the settings specified here, but only if they are stricter.</para>
         </listitem>
       </varlistentry>
 
